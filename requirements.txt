@@ -1,0 +1,7 @@
+tensorflow
+numpy
+rasterio
+scikit-learn
+folium
+ipywidgets
+voila
