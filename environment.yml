@@ -1,0 +1,12 @@
+
+name: myenv
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - rasterio=1.2.10
+  - pip
+  - pip:
+    - folium==0.12.1
+    - matplotlib==3.4.3
