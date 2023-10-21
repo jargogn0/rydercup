@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- ... the beginning of your HTML (head, styles, etc.) ... -->
+
+<body>
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1>NDVI and Segmentation Images</h1>
+                <div class="row">
+                    {% for img in ndvi_images %}
+                    <div class="col-md-4">
+                        <img src="{{ img }}" alt="NDVI or Segmentation Image" class="img-fluid mb-3">
+                    </div>
+                    {% endfor %}
+                </div>
+                
+                {% if merged_image %}
+                <h2>Merged Image</h2>
+                <div class="mb-3">
+                    <img src="{{ merged_image }}" alt="Merged Image" class="img-fluid">
+                </div>
+                {% endif %}
+
+                <button onclick="window.location.href='/'">Back to Home</button>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ... your scripts ... -->
+
+</body>
+</html>
