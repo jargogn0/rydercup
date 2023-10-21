@@ -5,6 +5,11 @@ channels:
   - conda-forge
 dependencies:
   - python=3.8
+<<<<<<< HEAD
+=======
+  - voila
+  - geopandas
+>>>>>>> e0e8bba80f5322f05e387e2db0583c4229210929
   - rasterio=1.2.10
   - pip
   - pip:

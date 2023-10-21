@@ -1,0 +1,4 @@
+outs:
+- md5: 4d27e1d5474783b1ed502521e0b9e308
+  size: 554076032
+  path: predicted_images.npy

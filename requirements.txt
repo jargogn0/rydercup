@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 absl-py==2.0.0
 affine==2.4.0
 amqp==2.6.1
@@ -169,3 +170,9 @@ websockets==11.0.3
 Werkzeug==2.2.3
 widgetsnbextension==4.0.9
 wrapt==1.14.1
+=======
+folium==0.12.1
+matplotlib==3.4.3
+rasterio==1.2.10
+voila
+>>>>>>> e0e8bba80f5322f05e387e2db0583c4229210929
